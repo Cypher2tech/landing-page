@@ -1,24 +1,46 @@
 * {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
 
 
 
 }
 
-.box {
-
-    height: 500px;
-    width: 500px;
-    background-color: red;
-    padding: 60px;
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
 
 }
 
-.inside-box {
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+.navbar h1 {
+    color: white;
 
+
+}
+
+.navbar ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    background-color: gold;
+}
+
+
+.navbar ul li {
+    list-style: none;
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
 }
